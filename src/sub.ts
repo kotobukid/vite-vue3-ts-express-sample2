@@ -1,4 +1,4 @@
-import Vue from 'vue'
+import { createApp } from 'vue'
 import words from './mod'
 
 (() => {
@@ -7,4 +7,4 @@ import words from './mod'
     console.log(words.hello)
 })()
 
-Vue.createApp({}).mount(('#app'))
+createApp({}).mount(('#app'))
