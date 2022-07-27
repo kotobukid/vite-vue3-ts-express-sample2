@@ -1,9 +1,17 @@
 {
   "compilerOptions": {
-    "composite": true,
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "allowSyntheticDefaultImports": true
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "noUnusedParameters": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "newLine": "lf"
   },
-  "include": ["vite.config.ts"]
+  "include": ["vite.config.ts"],
+  "files": [
+    "bin/www.ts"
+  ]
 }
