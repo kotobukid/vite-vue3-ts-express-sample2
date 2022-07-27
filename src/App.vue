@@ -1,5 +1,4 @@
-<script lang="ts">
-import {defineComponent} from "vue";
+<script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 
@@ -7,14 +6,6 @@ const say_hello = () => {alert('hello')}
 
 import HelloWorld from './components/HelloWorld.vue'
 
-export default defineComponent({
-    components: {
-        HelloWorld
-    },
-    methods: {
-        say_hello
-    }
-})
 </script>
 
 <template lang="pug">
