@@ -7,3 +7,5 @@ cd aaa
 npm install
 npm run build
 
+vite.config.jsにオプションを設定してみる
+build.outDirでデフォルト書き出し先の./distを変更できる模様
