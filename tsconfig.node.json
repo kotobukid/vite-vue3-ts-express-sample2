@@ -10,7 +10,10 @@
     "forceConsistentCasingInFileNames": true,
     "newLine": "lf"
   },
-
+  "include": [
+    "app.ts",
+    "routes"
+  ],
   "files": [
     "bin/www.ts"
   ]

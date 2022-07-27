@@ -1,10 +1,11 @@
 #!/usr/bin/env node
+import * as express from 'express'
 
 /**
  * Module dependencies.
  */
 
-const app = require('../app');
+const app: express.Express = require('../app');
 const debug = require('debug')('ex11:server');
 const http = require('http');
 
