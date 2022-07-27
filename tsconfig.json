@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES2016",
     "module": "commonjs",
     "strict": true,
     "noUnusedParameters": false,
@@ -10,6 +10,5 @@
     "forceConsistentCasingInFileNames": true,
     "newLine": "lf"
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }

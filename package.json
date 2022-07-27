@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
+    "watch": "vue-tsc --noEmit && vite build --watch",
     "preview": "vite preview",
-    "tsc": "tsc --project ./tsconfig.node.json"
+    "tsc": "tsc --project ./tsconfig.node.json --watch"
   },
   "dependencies": {
     "@babel/types": "^7.18.9",

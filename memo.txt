@@ -15,3 +15,15 @@ build.assetsDirはoutDirからの相対パスで記述するようだが、親�
 
 https://zenn.dev/corocn/scraps/c63f6cb28ed97d
 複数エントリポイントを用意しそれぞれでコンパイルする
+
+npm script内でsourceを実行することはできない
+nodeのバージョンが古いとviteがエラーを吐く（ようになった）ため、nvmで最新のv18.7.0をインストールした
+だが編集の着手は簡単に行いたいためnpm run watch内からnvmを触りつつwatch状態に入る方法を模索したが、なんかうまく行かないので諦めてnvm use v18.7.0を実行してから
+npm run watchを実行するほうがまあ楽
+
+nvm use v18.7.0
+npm run watch
+
+npm run tsc
+
+これでブラウザ/サーバー双方のtsファイルをコンパイル可能になった…はず
