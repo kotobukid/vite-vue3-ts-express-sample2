@@ -1,0 +1,9 @@
+# create project
+
+cd ~/projects
+npm create vite@latest aaa -- --template vue-ts
+
+cd aaa
+npm install
+npm run build
+
